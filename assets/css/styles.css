@@ -1614,3 +1614,7 @@ main, .site-footer { margin-left: 0; }
   .team-member__identity { grid-template-columns: 50px minmax(0,1fr); }
   .team-member h3.team-member__monogram { width: 40px; height: 58px; font-size: 50px; }
 }
+
+.project-card--compact { min-height: 0; }
+.project-card--compact .project-preview--compact { min-height: 0; }
+.project-preview--compact .project-preview__intro { min-height: 128px; flex: 0 0 auto; }
