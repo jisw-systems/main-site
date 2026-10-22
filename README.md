@@ -1,8 +1,8 @@
 # J&I SimWorks Systems
 
-A static homepage for the independent J&I SimWorks Systems project. Built with plain HTML, CSS, and JavaScript; no build step or dependencies are required.
+A static homepage for the independent J&I SimWorks Systems project. It presents practical software and hardware projects for flight simulation. Built with plain HTML, CSS, and JavaScript; no build step or dependencies are required.
 
-This repository is the parent landing page for the portfolio and links out to the active project sites, especially [J&I Flight Tools](https://jisw-systems.github.io/dcs-flight-tools/). The project site contains the DCS utilities, checklists, calculators, and supporting data used in flight operations.
+This repository is the parent landing page for the portfolio and links out to active project sites, including [J&I Flight Tools](https://jisw-systems.github.io/dcs-flight-tools/), a DCS reference and planning suite. The portfolio also includes the in-development flight sim cockpit setup.
 
 ## Run locally
 
@@ -18,4 +18,4 @@ Publish the repository root as the Pages source. The site uses relative asset pa
 - `assets/css/styles.css`: visual system and responsive layouts
 - `assets/js/main.js`: mobile navigation, reveal transitions, and current year
 - `assets/jisw-logo.png`: current J&I SimWorks Systems logo
-- `dcs-flight-tools`: linked project repository for the active DCS tooling suite
+- `dcs-flight-tools`: linked project repository for the DCS flight tools suite
