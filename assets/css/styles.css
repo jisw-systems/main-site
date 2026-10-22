@@ -1593,26 +1593,40 @@ main, .site-footer { margin-left: 0; }
   .hero h1 { font-size: 24px; }
 }
 
-.team-member__identity { grid-template-columns: 62px minmax(0,1fr); }
+.team-member__identity { position:relative; grid-template-columns: 68px minmax(0,1fr); }
+.team-member__identity::before {
+  position:absolute;
+  top:5px;
+  bottom:5px;
+  left:80px;
+  width:1px;
+  background:linear-gradient(180deg,transparent,rgba(98,212,230,.5) 20%,rgba(98,212,230,.22) 80%,transparent);
+  content:"";
+}
 .team-member h3.team-member__monogram {
-  width: 48px;
-  height: 72px;
+  display: grid;
+  width: auto;
+  height: auto;
+  place-items: center;
+  margin: 0;
   border: 0;
-  border-radius: 0;
   background: transparent;
   color: var(--accent);
-  font: 400 62px/1 "Iowan Old Style", "Palatino Linotype", Baskerville, Georgia, serif;
-  box-shadow: none;
+  font: 500 43px/1 "Iowan Old Style", "Palatino Linotype", Baskerville, Georgia, serif;
+  text-align: center;
+  transform: none;
 }
 
 @media (max-width: 760px) {
-  .team-member__identity { grid-template-columns: 56px minmax(0,1fr); }
-  .team-member h3.team-member__monogram { width: 44px; height: 62px; font-size: 54px; }
+  .team-member__identity { grid-template-columns: 58px minmax(0,1fr); }
+  .team-member__identity::before { left:67px; }
+  .team-member h3.team-member__monogram { font-size: 37px; }
 }
 
 @media (max-width: 390px) {
-  .team-member__identity { grid-template-columns: 50px minmax(0,1fr); }
-  .team-member h3.team-member__monogram { width: 40px; height: 58px; font-size: 50px; }
+  .team-member__identity { grid-template-columns: 52px minmax(0,1fr); }
+  .team-member__identity::before { left:59px; }
+  .team-member h3.team-member__monogram { font-size: 34px; }
 }
 
 .project-card--compact { min-height: 0; }
