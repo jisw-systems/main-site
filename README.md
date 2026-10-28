@@ -4,6 +4,14 @@ A static homepage for the independent J&I SimWorks Systems project. It presents 
 
 This repository is the parent landing page for the portfolio and links out to active project sites, including [J&I Flight Tools](https://jisw-systems.github.io/dcs-flight-tools/), a DCS reference and planning suite. The portfolio also includes the in-development flight sim cockpit setup.
 
+## Community licenses
+
+The project is published for the community to use, share, and improve. Original code is licensed under [GNU GPL-3.0-or-later](LICENSE); original written and visual content is licensed under [CC BY-SA 4.0](CONTENT-LICENSE.md). Both allow commercial use, subject to their terms: code redistributions must preserve the GPL freedoms, and adapted content must retain attribution and use the same CC BY-SA license. Project names, logos, and third-party material are excluded.
+
+- [Main site source repository](https://github.com/jisw-systems/main-site)
+- [J&I Flight Tools source repository](https://github.com/jisw-systems/dcs-flight-tools)
+- [J&I Flight Tools licenses](https://jisw-systems.github.io/dcs-flight-tools/legal.html#source-terms)
+
 ## Run locally
 
 Open `index.html` in a browser, or serve this folder with any static file server.
